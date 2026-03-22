@@ -29,12 +29,13 @@ The next steps are to create full games for it. I still dream of making my own s
 
 <figure class="center">
   <iframe 
-    width="640" 
-    height="360" 
-    src="https://youtu.be/ejguey6CQ4o" 
-    title="Pong" 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/ejguey6CQ4o?si=sOuHgVjdww8q0kQI" 
+    title="YouTube video player" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
     allowfullscreen>
   </iframe>
   <figcaption>Pong</figcaption>
@@ -42,12 +43,13 @@ The next steps are to create full games for it. I still dream of making my own s
 
 <figure class="center">
   <iframe 
-    width="640" 
-    height="360" 
-    src="https://youtu.be/CrplLZgiRWM" 
-    title="Animation Demo" 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/CrplLZgiRWM?si=mkT5LVBQWs3sQRs_" 
+    title="YouTube video player" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
     allowfullscreen>
   </iframe>
   <figcaption>Animation Demo</figcaption>
