@@ -2,10 +2,10 @@
 title: 'Tea Party'
 description: 'GameJam Plus 2024 finalist'
 pubDate: 'Jun 22 2025'
-heroImage: '/public/assets/03_TeaParty/00_Logo.png'
+heroImage: '/assets/03_TeaParty/00_Logo.png'
 ---
 
-<!-- summery -->
+<!-- summary -->
 This project was first developed in one weekend in line with the _GameJam Plus 2024_ competition. After we were confirmed to the acceleration phase we spend more time in adding content and polishing the game. In **Tea Party** you are trying to assamble you animal friends for your afternoon tea. Explore the forest and solve their puzzles to finish the game. 
 
 <!-- links -->
@@ -33,26 +33,3 @@ In this project my focus was on implementing the different **puzzles** that the 
 
 <!-- reflection -->
 This was the first big project after Wind Riders in _Unity_ as during this time we only created board games in my studies. But I have noticed a big step up in my skills. I further strengthened my abilities and deepened my understanding for project setup and scalablility. After the initial setup, that had to be done in a quick way as we only had one weekend to finish the game, I noticed lots of small issues that needed to be cleaned up before we continued working. This was fun nother then less. I enjoyed the weekend crunch to create the initial submission and the meetings we had after and after. Also sitting at home and eagerly watching the live streams to see if we got to the next round of the contest was exciting.
-
-<style>
-.grid-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  justify-items: center; /* centers each image in its grid cell */
-}
-.center {
-  text-align: center; /* horizontally centers inline elements like img */
-}
-.center img {
-  display: inline-block; /* ensures image respects centering */
-}
-figure {
-  margin: 1rem 0;
-}
-figcaption {
-  font-size: 0.9rem;
-  color: #666;
-  text-align: center;
-}
-</style>

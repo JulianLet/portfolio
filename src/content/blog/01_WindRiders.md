@@ -2,10 +2,10 @@
 title: 'Wind Riders'
 description: 'First year Arcade game'
 pubDate: 'May 31 2024'
-heroImage: '/public/assets/01_WindRiders/00_Logo.png'
+heroImage: '/assets/01_WindRiders/00_Logo.png'
 ---
 
-<!-- summery -->
+<!-- summary -->
 To finish our first year of our Game Design programm we had our first production course. Our task was to create an _Arcade game_ and develop an unconventional input. We created a sailing racing game in _Unity_, themed around vikings to embrace our Nordic connection. We created an arcade booth looking like a small sailing boat. The player sit inside with one hand on the rudder, to stear the boat, and the other on a rope to turn a sail adjusting it to the wind direction.
 
 <!-- links -->
@@ -41,26 +41,3 @@ This project did a lot to me. From the amazing team I had, to the hours in the w
 <figure class="center">
   <img src="/assets/01_WindRiders/Elias.JPEG" alt="Input" width="800" />
 </figure>
-
-<style>
-.grid-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  justify-items: center; /* centers each image in its grid cell */
-}
-.center {
-  text-align: center; /* horizontally centers inline elements like img */
-}
-.center img {
-  display: inline-block; /* ensures image respects centering */
-}
-figure {
-  margin: 1rem 0;
-}
-figcaption {
-  font-size: 0.9rem;
-  color: #666;
-  text-align: center;
-}
-</style>

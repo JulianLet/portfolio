@@ -154,3 +154,27 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  justify-items: center; /* centers each image in its grid cell */
+}
+
+.center {
+  text-align: center; /* horizontally centers inline elements like img */
+}
+
+.center img {
+  display: inline-block; /* ensures image respects centering */
+}
+
+figure {
+  margin: 1rem 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}

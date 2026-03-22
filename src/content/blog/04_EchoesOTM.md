@@ -1,11 +1,11 @@
 ---
 title: 'Echoes of the Masquarade'
-description: 'Verticle Slice Project'
+description: 'Vertical Slice Project'
 pubDate: 'Jun 06 2025'
-heroImage: '/public/assets/04_EoM/00_Logo.jpg'
+heroImage: '/assets/04_EoM/00_Logo.jpg'
 ---
 
-<!-- summery -->
+<!-- summary -->
 This game was part of our Vertical Slice course. It is a **rouge-like action game** based around music and Italian folklore. We got ten weeks to be able to develop our dream game full time. We even got our own office spaces. Our project owner was a ver passionate Italian who came up with the idea for the game.
 
 <!-- links -->
@@ -53,26 +53,3 @@ Another focus I had was the creation of the **enemy and boss AI**. The enemies a
 
 <!-- reflection -->
 As I have been working in a real working environment full time in a team, being back in an office and working alongside you collegues made me realise how much I missed that. Being close to your collegues adds so much more than just shorter communication paths. The laughs in the office, the chats, but also the inspiration of having someone working next to me makes it so much more productive. Again I had the privilege to work with an amazing team with passionate developers. Working in an office also helped me get insights into how the process is for 3D assets, how much time they need to be created and how animations are done. This is also something that is amazing to me. When the game turns from my gray and red boxes to a great looking game.
-
-<style>
-.grid-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  justify-items: center; /* centers each image in its grid cell */
-}
-.center {
-  text-align: center; /* horizontally centers inline elements like img */
-}
-.center img {
-  display: inline-block; /* ensures image respects centering */
-}
-figure {
-  margin: 1rem 0;
-}
-figcaption {
-  font-size: 0.9rem;
-  color: #666;
-  text-align: center;
-}
-</style>
