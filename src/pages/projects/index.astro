@@ -1,0 +1,93 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      main {
+        max-width: 960px;
+        margin: auto;
+        padding: 2em 1em;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        margin-bottom: 2em;
+      }
+      li img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 12px;
+      }
+      .content h4 {
+        margin: 0 0 0.3em 0;
+        font-size: 1.5em;
+      }
+      .content p {
+        margin: 0.2em 0;
+      }
+      .date {
+        color: rgb(var(--gray));
+        font-size: 0.9em;
+      }
+      a {
+		display: flex;
+		align-items: flex-start; /* aligns top of image and text */
+		gap: 1.5em; /* spacing between image and text */
+		text-decoration: none;
+		color: inherit;
+		transition: 0.2s ease;
+      }
+      a:hover .content h4,
+      a:hover .date {
+        color: rgb(var(--accent));
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <ul>
+        {posts.map((post) => (
+          <li>
+            <a href={`/projects/${post.id}/`}>
+              {post.data.heroImage && (
+                <Image
+                  src={post.data.heroImage}
+                  width={120}
+                  height={120}
+                  alt=""
+                />
+              )}
+              <div class="content">
+                <h4>{post.data.title}</h4>
+                <p>{post.data.description}</p>
+                <p class="date">
+                  <FormattedDate date={post.data.pubDate} />
+                </p>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </main>
+    <Footer />
+  </body>
+</html>

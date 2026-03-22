@@ -1,0 +1,85 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import ProfilePic from '../assets/profil.jpg';
+import { Image } from 'astro:assets';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="intro">
+				<div class="intro-text">
+					<h1>WELCOME</h1>
+					<p>
+						Hi, I’m Julian — a third-year Game Design and Programming student at Uppsala University, Campus Gotland.
+					</p>
+					<p>
+						Welcome to my portfolio.
+					</p>
+				</div>
+
+				<div class="intro-image">
+					<Image src={ProfilePic} width={250} height={280} alt="Profile picture" />
+				</div>
+			</section>
+
+			<p>
+				I’m passionate about building game systems and tools that can help improving the workflow. 
+				Working in a team where everyone can focus on their strengths and support each other is one of the most rewarding experiences for me.
+			</p>
+
+			<p>
+				During our Arcade Course, I developed an interest in microcontroller programming. The ability to bring digital functionality to board games 
+				or handheld consoles inspired me to start the development of my own 2D game engine.  
+				<a href="/projects/05_gameboy/">Read more about it here</a>.
+			</p>
+
+			<p>
+				I have also explored other areas of game development, including level design, shader programming and motion capture. These experiences helped me
+				to combine technical precision with visual and gameplay creativity. They also helpted me get insights into the workflow of other departments and 
+				what is important to them.
+			</p>
+
+			<p>
+				For more of my work and projects, feel free to explore my <a href="/projects">Projects page</a>.			
+			</p>
+		</main>
+
+<style>
+  .intro {
+    display: flex;
+    align-items: center; /* vertically center image and text */
+    gap: 2rem; /* space between text and image */
+    margin-bottom: 2rem;
+  }
+
+  .intro-text {
+    flex: 1; /* take up remaining space */
+  }
+
+  .intro-image {
+    flex-shrink: 0; /* don’t shrink the image */
+  }
+
+  @media (max-width: 720px) {
+    .intro {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .intro-image {
+      margin-top: 1rem;
+    }
+  }
+</style>
+		<Footer />
+	</body>
+</html>
