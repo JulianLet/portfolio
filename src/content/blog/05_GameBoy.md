@@ -2,7 +2,7 @@
 title: 'Game Engine'
 description: 'Raspberry Pi Pico Game Engine'
 pubDate: 'Mar 21 2026'
-heroImage: '/src/assets/05_GameEngine/00_Logo.png'
+heroImage: '/public/assets/05_GameEngine/00_Logo.png'
 ---
 
 <!-- summery -->
