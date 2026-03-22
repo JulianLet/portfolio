@@ -2,7 +2,7 @@
 title: 'Tea Party'
 description: 'GameJam Plus 2024 finalist'
 pubDate: 'Jun 22 2025'
-heroImage: '/assets/03_TeaParty/00_Logo.png'
+heroImage: '/public/assets/03_TeaParty/00_Logo.png'
 ---
 
 <!-- summary -->

@@ -2,7 +2,7 @@
 title: 'Echoes of the Masquarade'
 description: 'Vertical Slice Project'
 pubDate: 'Jun 06 2025'
-heroImage: '/assets/04_EoM/00_Logo.jpg'
+heroImage: '/public/assets/04_EoM/00_Logo.jpg'
 ---
 
 <!-- summary -->

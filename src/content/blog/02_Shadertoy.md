@@ -2,7 +2,7 @@
 title: 'Shadertoy Clone'
 description: 'Real time graphics project'
 pubDate: 'Jan 17 2025'
-heroImage: '/assets/02_Shadertoy/00_Logo.png'
+heroImage: '/public/assets/02_Shadertoy/00_Logo.png'
 ---
 
 <!-- summary -->
