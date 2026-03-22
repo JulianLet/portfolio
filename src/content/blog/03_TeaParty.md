@@ -27,11 +27,15 @@ In this project my focus was on implementing the different **puzzles** that the 
 </div>
 
 <figure class="center">
-
-  <video controls width="640" height="360" poster="/poster-image.jpg">
-    <source src="https://youtu.be/OwTUinJ04v8" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <iframe 
+    width="640" 
+    height="360" 
+    src="https://www.youtube.com/embed/OwTUinJ04v8" 
+    title="Navigation system" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
   <figcaption>Navigation system</figcaption>
 </figure>
 

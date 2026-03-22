@@ -28,17 +28,27 @@ The current prototype showcases several small games, including:
 The next steps are to create full games for it. I still dream of making my own small version of Pokémon as well as other mini-games.
 
 <figure class="center">
-  <video controls width="640" height="360" poster="/poster-image.jpg">
-    <source src="https://youtu.be/VI0uthSYkag" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <iframe 
+    width="640" 
+    height="360" 
+    src="https://www.youtube.com/embed/VI0uthSYkag" 
+    title="Pong" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
   <figcaption>Pong</figcaption>
 </figure>
 
 <figure class="center">
-  <video controls width="640" height="360" poster="/poster-image.jpg">
-    <source src="https://youtu.be/VI0uthSYkag" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <iframe 
+    width="640" 
+    height="360" 
+    src="https://www.youtube.com/embed/VI0uthSYkag" 
+    title="Animation Demo" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
   <figcaption>Animation Demo</figcaption>
 </figure>

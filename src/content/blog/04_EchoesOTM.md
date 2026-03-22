@@ -44,10 +44,15 @@ In addition to world generation, I also added a **modular charm system** to appl
 Another focus I had was the creation of the **enemy and boss AI**. The enemies and the boss had specific behaviors that depended on the player’s position and the state of nearby enemies. The Mommotti, the regular enemy encountered during the level, has a passive attack behavior: they circle the player and only attack individually. In contrast, the boss is very aggressive, spamming different attacks depending on the player’s position.
 
 <figure class="center">
-  <video controls width="640" height="360" poster="/poster-image.jpg">
-    <source src="https://youtu.be/VI0uthSYkag" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <iframe 
+    width="640" 
+    height="360" 
+    src="https://www.youtube.com/embed/VI0uthSYkag" 
+    title="Different attack behaviours for Mommotti and Pulchinella" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
   <figcaption>Different attack behaviours for Mommotti and Pulchinella</figcaption>
 </figure>
 
