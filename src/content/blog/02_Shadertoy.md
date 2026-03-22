@@ -15,22 +15,28 @@ Take a look at <a href="https://github.com/JulianLet/ShadertoyClone" target="_bl
 I created a **shader writing system** in _Visual Studio 2022_ using _C++_ and _OpenGL_. I set up the basic essentials with vertex buffers, frame buffers, and index buffers. I also added ImGui to create a testing platform where I could quickly switch between different shader examples. I then created several shader examples, ranging from rendering a basic disc to light reflections on a plane, and animated shaders inspired by shaders commonly found on Shadertoy.
 
 <figure class="center">
-  <video controls width="600">
-    <source src="/public/assets/02_Shadertoy/01_LightTest.mp4" type="video/mp4" />
+  <video controls width="600" preload="metadata">
+    <source src="/assets/02_Shadertoy/01_LightTest.mp4" type="video/mp4">
+    <source src="/assets/02_Shadertoy/01_LightTest.webm" type="video/webm">
+    Your browser does not support the video tag.
   </video>
   <figcaption>First test with reflection</figcaption>
 </figure>
 
 <figure class="center">
-  <video controls width="600">
-    <source src="/public/assets/02_Shadertoy/02_AnimatingTest.mp4" type="video/mp4" />
+  <video controls width="600" preload="metadata">
+    <source src="/assets/02_Shadertoy/02_AnimatingTest.mp4" type="video/mp4">
+    <source src="/assets/02_Shadertoy/02_AnimatingTest.webm" type="video/webm">
+    Your browser does not support the video tag.
   </video>
   <figcaption>Animated shader inspired by Shadertoy</figcaption>
 </figure>
 
 <figure class="center">
-  <video controls width="600">
-    <source src="/public/assets/02_Shadertoy/03_HeartTest.mp4" type="video/mp4" />
+  <video controls width="600" preload="metadata">
+    <source src="/assets/02_Shadertoy/03_HeartTest.mp4" type="video/mp4">
+    <source src="/assets/02_Shadertoy/03_HeartTest.webm" type="video/webm">
+    Your browser does not support the video tag.
   </video>
   <figcaption>Animated Heart shader</figcaption>
 </figure>
