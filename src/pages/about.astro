@@ -1,6 +1,10 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import AboutHeroImage from '../assets/blog-placeholder-5.jpg';
 import Layout from '../layouts/BlogPost.astro';
+
+import Image1 from '../assets/IMG_4059.JPEG';
+import Image2 from '../assets/IMG_5021.JPEG';
+import { Image } from 'astro:assets';
 ---
 
 <Layout
@@ -32,6 +36,36 @@ import Layout from '../layouts/BlogPost.astro';
 	Italy, Croatia, and Serbia over the last few years. I’ve also fallen in love with Sweden and am currently learning Swedish.
 </p>
 
-//TODO: add pictures
+<section class="image-pair">
+  <div class="image-pair-item">
+    <Image src={Image1} width={400} height={300} alt="Description of first image" />
+    <figcaption>Caption for first image</figcaption>
+  </div>
+  <div class="image-pair-item">
+    <Image src={Image2} width={400} height={300} alt="Description of second image" />
+    <figcaption>Caption for second image</figcaption>
+  </div>
+</section>
+
+<style>
+  .image-pair {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .image-pair-item {
+    flex: 1 1 45%;
+    text-align: center;
+  }
+
+  .image-pair-item figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+</style>
 
 </Layout>
