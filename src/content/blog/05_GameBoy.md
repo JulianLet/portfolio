@@ -8,6 +8,10 @@ heroImage: '/public/assets/05_GameEngine/00_Logo.png'
 <!-- summary -->
 This is my passion project: a **handheld game console** built with a Raspberry Pi Pico microcontroller. Inspired by playing Pokémon on my old GameBoy Color, I wanted a device that could run my own games. Using _Visual Studio Code_ with _C++_ and the Raspberry Pi Add-On, I’m building both the games and the underlying engine.
 
+<figure class="center">
+  <img src="/assets/05_GameEngine/01_photo.JPEG" alt="Table" width="800" />
+</figure>
+
 The engine is built around an **Entity-Component-System (ECS)** architecture for modularity and scalability. It already supports a physics engine, sprite sheets, animations, and a file system on the SD card. Working within the **strict hardware limits** of the Raspberry Pi Pico — very limited RAM and flash memory — forced careful management of assets, memory, and CPU usage. I designed a compact, efficient architecture that handles physics, input, rendering, and file management while keeping resource usage minimal.
 
 <!-- links -->
