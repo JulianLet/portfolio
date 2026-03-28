@@ -1,53 +1,88 @@
 ---
-import AboutHeroImage from '../assets/profil.jpg';
-import Layout from '../layouts/BlogPost.astro';
-
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import ProfilePic from '../assets/profil.jpg';
+import { Image } from 'astro:assets';
 import Image1 from '../assets/IMG_4059.JPG';
 import Image2 from '../assets/IMG_5021.JPG';
-import { Image } from 'astro:assets';
 ---
 
-<Layout
-	title="About Me"
-	description="My journey from engineering to game programming and personal interests"
-	pubDate={new Date('Mar 22 2026')}
-	heroImage={AboutHeroImage}
-  bannerImage={AboutHeroImage}
-  keywords='Me'
->
-<p>
-	When I was 16, I started a trainee program as a Design Engineer at EVO GmbH in Munich. There, I learned how to work professionally on projects and as part of a team. 
-	I also gained experience with <em>Catia V5</em> and <em>Autodesk Inventor</em>. Over the next eight years, I took part in the development of interior parts for companies like BMW, 
-  Rolls-Royce, Mini, and Carthago, gradually taking on more responsibility and eventually managing my own projects. But feeling the urge to explore something new, I went back to school 
-  to complete my secondary degree and moved to Sweden to study.
-</p>
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+      <div class="intro-image">
+        <Image src={ProfilePic} height={300} alt="Profile picture" />
+      </div>
 
-<p>
-	Leading up to my university application, my brother introduced me to programming, showing me the basics of <em>Java</em>. I was immediately hooked - being able to write small 
-	games and see how things work under the hood sparked my passion for learning more. This led me to apply for a Game Design program with a programming minor.
-</p>
+      <h1 class="title">About Me</h1>
 
-<p>
-	During my fifth semester, I had the opportunity to participate in an exchange program at <strong>Queen’s University</strong> in Kingston, Canada. This experience allowed me to 
-	collaborate with an international group of students, gain exposure to different teaching methods, and immerse myself in a new culture. I learned <em>Python</em> and 
-	<em>Java</em> programming language basics and also took courses in art history and mathematics.
-</p>
+      <p>
+        When I was 16, I started a trainee program as a Design Engineer at EVO GmbH in Munich. There, I learned how to work professionally on projects and as part of a team. 
+        I also gained experience with <em>Catia V5</em> and <em>Autodesk Inventor</em>. Over the next eight years, I took part in the development of interior parts for companies like BMW, 
+        Rolls-Royce, Mini, and Carthago, gradually taking on more responsibility and eventually managing my own projects. But feeling the urge to explore something new, I went back to school 
+        to complete my secondary degree and moved to Sweden to study.
+      </p>
 
-<p>
-	In my spare time, I enjoy bouldering and sport climbing. I also love going on road trips with my girlfriend and our dog, traveling to Norway, 
-	Italy, Croatia, and Serbia over the last few years. I’ve also fallen in love with Sweden and am currently learning Swedish.
-</p>
+      <p>
+        Leading up to my university application, my brother introduced me to programming, showing me the basics of <em>Java</em>. I was immediately hooked - being able to write small 
+        games and see how things work under the hood sparked my passion for learning more. This led me to apply for a Game Design program with a programming minor.
+      </p>
 
-<section class="image-pair">
-  <div class="image-pair-item">
-    <Image src={Image1} alt="Description of first image" class="full-height-image" />
-  </div>
-  <div class="image-pair-item">
-    <Image src={Image2} alt="Description of second image" class="full-height-image" />
-  </div>
-</section>
+      <p>
+        During my fifth semester, I had the opportunity to participate in an exchange program at <strong>Queen’s University</strong> in Kingston, Canada. This experience allowed me to 
+        collaborate with an international group of students, gain exposure to different teaching methods, and immerse myself in a new culture. I learned <em>Python</em> and 
+        <em>Java</em> programming language basics and also took courses in art history and mathematics.
+      </p>
+
+      <p>
+        In my spare time, I enjoy bouldering and sport climbing. I also love going on road trips with my girlfriend and our dog, traveling to Norway, 
+        Italy, Croatia, and Serbia over the last few years. I’ve also fallen in love with Sweden and am currently learning Swedish.
+      </p>
+
+      <section class="image-pair">
+        <div class="image-pair-item">
+          <Image src={Image1} alt="Slowenia" class="rounded-image" />
+        </div>
+        <div class="image-pair-item">
+          <Image src={Image2} alt="Sweden" class="rounded-image" />
+        </div>
+      </section>
+		</main>
 
 <style>
+main {
+  width: calc(100% - 2em);
+  max-width: 960px;
+  margin: auto;
+}
+
+.title {
+  margin-bottom: 1em;
+  text-align: center;
+}
+.title h1 {
+  margin: 0.5em 0;
+}
+
+/* Center profile image */
+.intro-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.intro-image img {
+  border-radius: 12px;
+}
+
+/* Image pair layout */
 .image-pair {
   display: flex;
   gap: 2rem;
@@ -55,18 +90,20 @@ import { Image } from 'astro:assets';
   margin-top: 2rem;
   flex-wrap: wrap;
 }
+
 .image-pair-item {
   flex: 1 1 45%;
   text-align: center;
 }
-/* Make images full height while keeping aspect ratio */
-.full-height-image {
-  width: auto;      /* width adjusts automatically */
-  height: 100%;     /* fill container height */
-  max-height: 500px; /* optional: prevent super tall images */
-  object-fit: contain; /* show full image without cropping */
+
+/* Rounded + responsive images */
+.rounded-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 12px;
 }
 </style>
-</style>
-
-</Layout>
+		<Footer />
+	</body>
+</html>
