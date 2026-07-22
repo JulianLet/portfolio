@@ -8,7 +8,7 @@ keywords: "Unity, System Programming, AI Programming, Level Design, C#"
 ---
 
 <!-- summary -->
-To finish our first year, we had our first production course. Our task was to create an _Arcade game_ and develop an unconventional input. **Wind Riders** is a sailing racing game developed in _Unity_, themed around Vikings to embrace our Nordic connection. We created an arcade booth looking like a small sailing boat. The player sits inside with one hand on the rudder to steer the boat, and the other on a rope used to adjust the sail to the wind direction.
+To finish our first year, we had our first production course. As a **team of six students**, our task was to create an _Arcade game_ and develop an unconventional input. **Wind Riders** is a sailing racing game developed in _Unity_, themed around Vikings to embrace our Nordic connection. We created an arcade booth looking like a small sailing boat. The player sits inside with one hand on the rudder to steer the boat, and the other on a rope used to adjust the sail to the wind direction.
 
 <!-- links -->
 This project was showcased at the <a href="https://game.speldesign.uu.se/projects/arcade-games/wind-riders/" target="_blank" rel="noopener noreferrer">Gotland Game Conference 2024</a> where it was awarded **the Jury Spotlight Award**.

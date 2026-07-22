@@ -1,6 +1,6 @@
 ---
 title: "Big Wiz'"
-description: "First year Shoot 'em up game"
+description: "First year student game"
 pubDate: 'Mar 21 2024'
 bannerImage: '/public/assets/00_BigWiz/00_Logo.png'
 heroImage: '/public/assets/00_BigWiz/00_LogoSq.png'
@@ -8,7 +8,7 @@ keywords: "Unity, System Programming, Level Design, C#"
 ---
 
 <!-- summary -->
-This project was part of our Game Design 2 course where we were asked to create a **Shoot 'em up game**. At the start of the course, each randomly assigned group received an initial theme for their project. Ours was _Toxic Workplace_, which led to us choosing a corporate building as a setting. The protagonist is the evil wizard boss who must fight against the unionized workers.
+This project was part of our Game Design 2 course where we, a **team of seven students**, were asked to create a **Shoot 'em up game**. At the start of the course, each randomly assigned group received an initial theme for their project. Ours was _Toxic Workplace_, which led to us choosing a corporate building as a setting. The protagonist is the evil wizard boss who must fight against the unionized workers.
 
 <!-- links -->
 Try this game on <a href="https://julianletsche.itch.io/bigwiz" target="_blank" rel="noopener noreferrer">itch.io</a>

@@ -8,7 +8,7 @@ keywords: "Unity, System Programming, Puzzle Programming, C#"
 ---
 
 <!-- summary -->
-This project was first developed in one weekend as part of the _GameJam Plus 2024_ competition. After being selected for the acceleration phase we spent more time adding content and polishing the game. In **Tea Party** the players explore the forest and solve puzzles to gather all their friends and complete the game.
+This project was first developed in one weekend as part of the _GameJam Plus 2024_ competition working together as a **team of six students**. After being selected for the acceleration phase we spent more time adding content and polishing the game. In **Tea Party** the players explore the forest and solve puzzles to gather all their friends and complete the game.
 
 <!-- links -->
 This game was our submission to the <a href="https://itch.io/jam/gamejamplus-2425" target="_blank" rel="noopener noreferrer">GameJamPlus 24/25</a> where we were one of the 60 teams globally that were selected for the final.

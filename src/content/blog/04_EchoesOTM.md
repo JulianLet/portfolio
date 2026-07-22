@@ -8,7 +8,7 @@ keywords: "Unity, System Programming, Tools Programming, AI programming, C#"
 ---
 
 <!-- summary -->
-This game was part of our Vertical Slice course. It is a **rogue-like action game** based around music and Italian folklore. We had ten weeks to develop our dream game full-time within our own office spaces. Our project owner was a very passionate Italian who pitched the idea for the game.
+This game was part of the Vertical Slice course. It is a **rogue-like action game** based around music and Italian folklore. As a **team of 8 students** we had ten weeks to develop our dream game full-time within our own office spaces. Our project owner was a very passionate Italian who pitched the idea for the game.
 
 <!-- links -->
 This project was showcased at the <a href="https://game.speldesign.uu.se/projects/3d-games/echoes-of-the-masquerade/" target="_blank" rel="noopener noreferrer">Gotland Game Conference 2025</a>.
