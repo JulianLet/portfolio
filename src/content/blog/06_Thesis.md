@@ -16,7 +16,7 @@ This project is still ongoing as we are currently working on releasing this game
 <!-- my focus -->
 ### Dynamic Difficulty Adjustment
 
-My research focuses on developing a **Dynamic Difficulty Adjustment (DDA) System** within the game. The goal is to provide each player with an individual difficulty level based on their skill. In a psychological horror game, player immersion is the most important aspect; therefore, keeping both players in the Flow state is essential.
+My research focuses on developing a **Dynamic Difficulty Adjustment (DDA) System** within the game. The goal is to provide each player with an individual difficulty level based on their skill. In a psychological horror game, player immersion is the most important aspect; therefore, keeping both players in the Flow state is essential. To gather data for my thesis I added a Data Log in the background which logged in game data and events that enabled me to create graphs that I could use in my thesis.
 
 <figure class="center">
   <img src="/assets/06_Thesis/01_Difficulty.png" alt="Difficulty Graph" width="800" />
@@ -24,6 +24,8 @@ My research focuses on developing a **Dynamic Difficulty Adjustment (DDA) System
 </figure>
 
 After completing my research, I identified three important aspects for designing a DDA system for a puzzle game: establishing an initial difficulty level, including the current game state in the calculation, and allowing players to fail without immediately reducing the difficulty.
+
+The research paper is released on <a href="https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A2071353&dswid=-7262" target="_blank" rel="noopener noreferrer">DiVA</a>
 
 ```c#
 int successfullTasks = 0;
