@@ -12,7 +12,7 @@ keywords: "Visual Studio 2022, Raspberry Pi Pico W, System Programming, C++"
 
 This is my **solo passion project**: a **handheld game console** built with a Raspberry Pi Pico microcontroller. Inspired by playing Pokémon on my old GameBoy Color, I wanted to build my own device that could run my own games. Using *Visual Studio Code* with *C++* and the Raspberry Pi Add-On, I’m building both the games and the underlying engine.
 
-With my latest update, switching from a vector-based ECS to a bitmask-based entity system, as well as splitting SPI communication between the display and SD card reader, it is now possible to run a full tilemap world at 34 FPS and simpleer games at 60 FPS.
+With my latest update, switching from a vector-based ECS to a bitmask-based entity system, as well as splitting SPI communication between the display and SD card reader, it is now possible to run a full tilemap world at 34 FPS and simpler games at 60 FPS.
 
 This project is still ongoing with the goal to create my own playable Pokémon game and creating a 3D printed housing for this device.
 
