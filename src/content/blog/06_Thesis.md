@@ -13,6 +13,8 @@ For my Bachelor thesis, I am collaborating with **three fellow students** to dev
 
 This project is still ongoing as we are currently working on releasing this game on steam.
 
+Get the demo game on <a href="https://julianletsche.itch.io/calypso-1" target="_blank" rel="noopener noreferrer">itch.io</a>. Only playable on Windows.
+
 <!-- my focus -->
 ### Dynamic Difficulty Adjustment
 
